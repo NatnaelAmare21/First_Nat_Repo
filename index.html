@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Qoute Generator</title>
     <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <!-- <i class="fa-solid fa-calendar-days"></i> -->
-    <!-- Script -->
+    <div class="qoute-container" id="qoute-container">
+        <div class="qoute-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <span id="qoute"></span>
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <div class="qoute-author">
+            <span id="author"></span>
+        </div>
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet this!">
+                <i class="fab fa-twitter"></i>    
+            </button>
+            <button id="new-qoute">New Qoute</button>
+        </div>
+    </div>
+    <script src="qoutes.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
